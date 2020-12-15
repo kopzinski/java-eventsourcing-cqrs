@@ -36,6 +36,7 @@ As written before, it's a experiment using CQRS and EventSourcing, follows here 
 
 yes... a lot of things:
 - the exceptions/errors handling is quite poor, must be improved
+- split the logic inside of Projector class, there are too many responsabilities
 - better test coverage
 - stop using magic numbers/texts and put those on properties making it handy
 - run the solution by docker, making it able to be placed in containers managers
